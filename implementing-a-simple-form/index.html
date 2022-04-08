@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <title>My first form</title>
+</head>
+<body>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="user_name">
+            </li>
+            <li>
+                <label for="mail">E-mail:</label>
+                <input id="mail" type="email" name="user_email">
+            </li>
+            <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="checkbox">
+                <label for="need-reply">Need reply</label>
+                <input id="need-reply" type="checkbox">
+            </li>
+            <li class="button">
+                <button type="submit">Send your message</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
